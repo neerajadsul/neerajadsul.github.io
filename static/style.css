@@ -99,6 +99,10 @@ ul.social {
     vertical-align: middle;
 }
 
+main {
+    justify-content: center;
+}
+
 .pdate {
     color: darkgray;
     margin-top: -20px;
@@ -107,13 +111,16 @@ ul.social {
 }
 
 .projects {
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: calc(flex-end - flex-start);
 }
 
 .project {
     display: flex;
     flex-wrap: wrap-reverse;
+    align-items: center;
+    margin-left: 20px;
 }
 
 .project h2 {
@@ -130,6 +137,7 @@ ul.social {
     min-height: 100%;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
 }
 
 .grid2x2 .tile {
