@@ -1,0 +1,74 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../static/style.css">
+<title>125 Systems</title>
+<body>
+  <header>
+  <a href="../../"><img class="logo" src="/static/logo.webp"></a>
+  </header>
+  <nav>
+    <a
+    
+    href="../../">Home</a>
+    
+      <a  class="active" href="../">Blog</a>
+      
+      <a  href="../../projects/">Projects</a>
+      
+      <a  href="../../docs/">Quick Ref</a>
+      
+      <a  href="../../about/">About</a>
+      
+  </nav>
+  <div class="page">
+    
+  
+  <div class="blog-post">
+  
+    <h2>Difference in Packages between CircuitPython 7 and 7</h2>
+  
+  <p class="meta">
+    written by
+    
+      NeerajA
+    
+    on 2023-01-13
+  </p>
+  <p class="blog-summary">Code to print differences between version 7.3.3 and 8.0.0 of Adafruit CircuitPython port for Rpi Pico.</p>
+  
+    <p>CircuitPython 7.3.3 packages:</p>
+<pre><code>cp7 = "_bleio, adafruit_bus_device, adafruit_pixelbuf, aesio, alarm, analogio, atexit, audiobusio, audiocore, audiomixer, audiomp3, audiopwmio, binascii, bitbangio, bitmaptools, bitops, board, busio, countio, digitalio, displayio, errno, floppyio, fontio, framebufferio, getpass, gifio, imagecapture, json, keypad, math, microcontroller, msgpack, neopixel_write, nvm, onewireio, os, paralleldisplay, pulseio, pwmio, qrio, rainbowio, random, re, rgbmatrix, rotaryio, rtc, sdcardio, sharpdisplay, storage, struct, supervisor, synthio, terminalio, time, touchio, traceback, ulab, usb_cdc, usb_hid, usb_midi, vectorio, watchdog, zlib"
+</code></pre>
+<p>CircuitPython 8.0.0-beta.6 packages:</p>
+<pre><code>cp8 = "_asyncio, _bleio, _pixelmap, adafruit_bus_device, adafruit_pixelbuf, aesio, alarm, analogbufio, analogio, array, atexit, audiobusio, audiocore, audiomixer, audiomp3, audiopwmio, binascii, bitbangio, bitmaptools, bitops, board, builtins, busio, collections, countio, digitalio, displayio, errno, floppyio, fontio, framebufferio, getpass, i2ctarget, imagecapture, json, keypad, math, microcontroller, msgpack, neopixel_write, nvm, onewireio, os, paralleldisplay, pulseio, pwmio, qrio, rainbowio, random, re, rgbmatrix, rotaryio, rtc, sdcardio, select, sharpdisplay, storage, struct, supervisor, synthio, sys, terminalio, time, touchio, traceback, ulab, usb_cdc, usb_hid, usb_midi, vectorio, watchdog, zlib"
+</code></pre>
+<p>Python Code to find the difference:</p>
+<pre><code class="lang-Python">cp7 = set(map(lambda s: s.strip(), cp7.split(&#39;,&#39;)))
+cp8 = set(map(lambda s: s.strip(), cp8.split(&#39;,&#39;)))
+
+common = cp7.intersection(cp8)
+in_cp7_notin_cp8 = cp7 - cp8
+in_cp8_notin_cp7 = cp8 - cp7
+
+print(f&#39;Number of Common Built-in Modules:{len(common)}&#39;)
+print(f&#39;in_cp7_notin_cp8: {in_cp7_notin_cp8}&#39;)
+print(f&#39;in_cp8_notin_cp7: {in_cp8_notin_cp7}&#39;)
+</code></pre>
+
+  
+  </div>
+
+
+    <main>
+    </main>
+  </div>
+  <footer>
+    <ul class="social">
+    <li> </li>
+    <li><a href="https://github.com/neerajadsul">Github</a> </li>
+    <li><a href="https://linkedin.com/in/neerajadsul">LinkedIn</a></li>
+    </ul>
+    <br>
+  &copy; Copyright 2023 by NeerajA.
+  </footer>
+</body>

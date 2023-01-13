@@ -156,3 +156,14 @@ main {
     justify-content: center;
     flex-direction: row;
   }
+
+ .meta {
+    font-style: oblique;
+    margin-top: -20px;
+ }
+
+ .blog-summary {
+    font-weight: 500;
+    margin-top: -10px;
+    margin-bottom: 10px;
+ }
