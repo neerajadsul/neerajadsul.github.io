@@ -167,3 +167,8 @@ main {
     margin-top: -10px;
     margin-bottom: 10px;
  }
+
+ .psummary {
+    float: right;
+    width: 500px;
+ }
