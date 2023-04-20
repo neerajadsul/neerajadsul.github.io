@@ -1,0 +1,89 @@
+<!doctype html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../static/style.css">
+<title>125 Systems</title>
+<body>
+  <header>
+  <a href="../../"><img class="logo" src="/static/logo.webp"></a>
+  </header>
+  <nav>
+    <a
+    
+    href="../../">Home</a>
+    
+      <a  href="../../blog/">Blog</a>
+      
+      <a  href="../../projects/">Projects</a>
+      
+      <a  class="active" href="../">Quick Ref</a>
+      
+      <a  href="../../about/">About</a>
+      
+  </nav>
+  <div class="page">
+    
+  <h1 class="project">Docker Quick Reference</h1>
+  <dl>
+    <h2 class="pdate"><dt>
+    Jan-2023</h2>
+    <dd>
+    
+
+  </dl>
+  <h2>Description</h2>
+  <div class="description"><h3>Docker Commands</h3>
+<p><code>docker ps</code>     shows list of currently running containers</p>
+<p><code>docker ps -a</code>      shows list of currently running and previously ran containers</p>
+<p><code>docker run &lt;image&gt;</code>    starts container in attached mode</p>
+<p><code>docker run -d &lt;image&gt;</code> starts container in detached mode, system prompt returns</p>
+<p><code>docker run -it &lt;image&gt;</code>    starts container in interactive mode, connects container shell</p>
+<p><code>docker exec &lt;con_id&gt; &lt;command&gt;</code>    executes command in a running container</p>
+<p><code>docker run &lt;image&gt; &lt;command&gt;</code>  runs the command in the container</p>
+<p><code>docker stop &lt;con_id&gt;</code>  stops container with given id</p>
+<p><code>docker stop &lt;name&gt;</code>    stops container with given name</p>
+<p><code>docker rm &lt;con_id&gt;</code>    removes container with given id, multiple separated by space</p>
+<p><code>docker rm &lt;name&gt;</code>  removes container with given name, multiple separated by space</p>
+<p><code>docker rmi &lt;img_id&gt;</code>   removes image with given id, multiple separated by space</p>
+<p><code>docker rmi &lt;image&gt;</code>    removes image with given name, multiple separated by space</p>
+<p><code>docker pull &lt;image&gt;</code>   downloads image from Docker Hub to local storage</p>
+<p><code>docker run &lt;img&gt;:&lt;tag&gt;</code>    downloads image with specified tag</p>
+<h1>Docker Run in Details</h1>
+<h2>interactive mode</h2>
+<p><code>docker run -it</code>        interactive mode with psuedo terminal</p>
+<h2>port mapping</h2>
+<p><code>docker run -p &lt;host_port&gt;:&lt;con_port&gt;</code>  maps host port to container port</p>
+<h2>volume mapping, data persistence</h2>
+<p><code>docker run -v &lt;host_vol&gt;:&lt;con_vol&gt;</code>    maps host storage to container storage</p>
+<p>e.g.
+<code>docker run -it /home/neeraj/Sources:/home/ alpine:3.17</code></p>
+<h2>supplementary</h2>
+<p><code>docker logs &lt;con_id&gt;</code>  view the logs</p>
+<p><code>docker attach  &lt;con_id&gt;</code>   attaches to given running container</p>
+<p><code>docker inspect &lt;con_id&gt;</code>       displays information about running container, e.g. ip address</p>
+<h2>Docker Images and Containerization</h2>
+<h3>How to create the image?</h3>
+<h4>start with the OS</h4>
+<p><code>FROM python:3.11.0-alpine</code></p>
+<h4>Docker Environment Variables</h4>
+<p><code>docker run -e APP_VARIANT=12</code></p>
+<h4>Docker Compose</h4>
+<p>Running multi-container app</p>
+</div>
+  
+  
+
+    <main>
+    </main>
+  </div>
+  <footer>
+    <ul class="social">
+    <li>
+  <a href="https:/github.com/neerajadsul"><img class="logo" src="/static/github-mark.svg"></a>
+     </li>
+    <li>
+  <a href="https:/linkedin.com/in/neerajadsul"><img class="logo" src="/static/LI-In-Bug.png"></a>
+    </ul>
+    <br>
+  &copy; Copyright 2023 by Neeraj Adsul.
+  </footer>
+</body>
