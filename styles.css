@@ -1,0 +1,21 @@
+/* css styles */
+.quarto-title > h1.title {
+    opacity: 0 !important;
+}
+
+.navbar-logo {
+    min-height: 50px;
+}
+
+.nav-item {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.nav-footer .nav-footer-center {
+    font-size: 2.5em;
+}
+
+.nav-footer .nav-footer-left {
+    font-size: 1em;
+}
