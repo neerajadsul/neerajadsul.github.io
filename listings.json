@@ -1,11 +1,10 @@
 [
   {
-    "listing": "/projects.html",
+    "listing": "/blog.html",
     "items": [
-      "/projects/ortholinear_keyboard/ortholinear_keyboard.html",
-      "/projects/dobble_AI/dobble_AI.html",
-      "/projects/employee_training/employee_training.html",
-      "/projects/HomeMonitor/home_monitor.html"
+      "/blog/posts/post2.html",
+      "/blog/posts/post3.html",
+      "/blog/posts/post1.html"
     ]
   },
   {
@@ -19,19 +18,20 @@
     ]
   },
   {
+    "listing": "/projects.html",
+    "items": [
+      "/projects/ortholinear_keyboard/ortholinear_keyboard.html",
+      "/projects/dobble_AI/dobble_AI.html",
+      "/projects/employee_training/employee_training.html",
+      "/projects/HomeMonitor/home_monitor.html"
+    ]
+  },
+  {
     "listing": "/quickref.html",
     "items": [
       "/quickref/docker_notes.html",
       "/quickref/npd_v_model.html",
       "/quickref/quarto_quirks.html"
-    ]
-  },
-  {
-    "listing": "/blog.html",
-    "items": [
-      "/blog/posts/post2.html",
-      "/blog/posts/post3.html",
-      "/blog/posts/post1.html"
     ]
   }
 ]

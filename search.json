@@ -1,115 +1,45 @@
 [
   {
-    "objectID": "quickref/npd_v_model.html",
-    "href": "quickref/npd_v_model.html",
-    "title": "Product Development with Realistic V-model",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "The V-Model process for new product development is a structured approach to product development that emphasizes testing and verification throughout the entire process. However, the traditional model is almost a waterfall type model which fails to match the pratice.\n\n\n\n\nThe product development process starts with requirements analysis. In this phase, the product requirements are collected and analyzed to ensure they are complete, consistent, and achievable.\n\n\n\n\nThe system design phase involves creating a high-level design of the product. This includes defining the system architecture and subsystems, and identifying interfaces and communication protocols.\n\n\nThe system is brocken down in modules is designed in detail. This includes defining the interfaces between modules, and creating detailed design specifications.\n\n\n\n\nThe implementation phase involves building and integrating the subsystems into a complete system. This phase includes coding, unit testing, and integration testing.\n\n\n\nThe testing phase involves testing the product against software and hardware requirements specifications to ensure that it meets the design specifications. This includes functional testing, performance testing,\n\n\n\nThis testing is primarily focussing one the user acceptance testing in as close as possible to the real-world testing environement. The user could be an instrument, another software or a web API.\n\n\n\nIn the validation phase, the product is validated against the user requirements to ensure that it meets their needs. This may include usability testing, security testing, and regulatory compliance testing.\nBy following this improved V-Model process for new product development, companies can ensure that their products are thoroughly tested and validated before they are released to market."
+    "text": "Blog Posts\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n01-Feb-2023\n\n\nPost 2\n\n\nNeeraj \n\n\n\n\n01-Feb-2023\n\n\nPost 3\n\n\nNeeraj \n\n\n\n\n01-Jan-2023\n\n\nPost 1\n\n\nNeeraj \n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "quickref/quarto_quirks.html",
-    "href": "quickref/quarto_quirks.html",
-    "title": "Quarto Quirks - Tips & Tricks",
+    "objectID": "services/firmware_dev.html",
+    "href": "services/firmware_dev.html",
+    "title": "Firmware Development Lifecycle",
     "section": "",
-    "text": "How to resize image in Markdown ?\n![](image.png){.absolute top=50 right=50 width=\"450\" height=\"250\"}\nhttps://quarto.org/docs/presentations/revealjs/advanced.html#absolute-position"
+    "text": "Requirements -&gt; Test Specs -&gt; Firmware Development\nTest Driven Development (TDD) for firmware\n\nContinuous Integration (CI) setup from start\nEverything hosted on a Git repository of your choice.\nCI on development machine with Jenkins based CI\nRemote CI based on Azure, GitHub or Atlassian1\nIntegration testing with Python based automated testing\nHardware-in-loop (HIL) implemented when needed\nCppUTest unit testing framework\n\nExperience and tooling available for following\nFor simpler applications: Microchip PIC24, AVR microcontrollers\nFor larger and higher speed: ST Micro Cortex-M STM32 or Microchip dsPIC\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRequirements document\nTest reports\nDelivery of reproducible development environment\nTech-transfer; no holding out on knowledge"
   },
   {
-    "objectID": "quickref/docker_notes.html#docker-run-in-details",
-    "href": "quickref/docker_notes.html#docker-run-in-details",
-    "title": "Docker Cheatsheet / Notes",
-    "section": "Docker Run in Details",
-    "text": "Docker Run in Details\n\nInteractive mode\ndocker run -it interactive mode with psuedo terminal\n\n\nport mapping\ndocker run -p <host_port>:<con_port> maps host port to container port\n\n\nvolume mapping, data persistence\ndocker run -v <host_vol>:<con_vol> maps host storage to container storage\ne.g. docker run -it /home/neeraj/Sources:/home/ alpine:3.17"
+    "objectID": "services/firmware_dev.html#footnotes",
+    "href": "services/firmware_dev.html#footnotes",
+    "title": "Firmware Development Lifecycle",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nAzure DevOps, GitHub Actions and Atlassian Bitbucket is free for 5 users, needs subscription if more.↩︎"
   },
   {
-    "objectID": "quickref/docker_notes.html#supplementary",
-    "href": "quickref/docker_notes.html#supplementary",
-    "title": "Docker Cheatsheet / Notes",
-    "section": "Supplementary",
-    "text": "Supplementary\ndocker logs <con_id> view the logs\ndocker attach  <con_id> attaches to given running container\ndocker inspect <con_id> displays information about running container, e.g. ip address"
-  },
-  {
-    "objectID": "quickref/docker_notes.html#docker-images-and-containerization",
-    "href": "quickref/docker_notes.html#docker-images-and-containerization",
-    "title": "Docker Cheatsheet / Notes",
-    "section": "Docker Images and Containerization",
-    "text": "Docker Images and Containerization\n\nHow to create the image?\n\nstart with the OS\nFROM python:3.11.0-alpine\n\n\nDocker Environment Variables\ndocker run -e APP_VARIANT=12\n\n\nDocker Compose\nRunning multi-container app"
-  },
-  {
-    "objectID": "projects/dobble_AI/dobble_AI.html",
-    "href": "projects/dobble_AI/dobble_AI.html",
-    "title": "Dobble Playing AI",
+    "objectID": "services/hardware_dev.html",
+    "href": "services/hardware_dev.html",
+    "title": "Electronics and Optics Hardware Development Lifecycle",
     "section": "",
-    "text": "Dobble Playing AI"
+    "text": "Requirements -&gt; Test Specs -&gt; Hardware Development\nHardware Development\n\nModularisation into testable entities\nRapid design iteration for early prototypes\n\nSchematics, module PCBs\n\nCharacterisation and testing\nIntegration of modules to complete system\n\nIntegrated PCB with annotated schematics\n\nAcceptance Testing\nDesign optimisation and pre-production.\n\nRelease PCB\n\n\n\n\n\n\n\n\n\nTest Driven Development for hardware\n\nContinuous Integration (CI) setup from start\nEverything hosted on a Git repository of your choice.\nCI on the development machine with test harnesses\nIntegration testing with Python based automated testing\nHardware-in-loop (HIL) implemented when needed\n\nEfficient hardware design in KiCAD1 or Eagle CAD (Autodesk)\n\nup to 4 layers electronics PCB\n\nQuick turn-around for urgent electronic prototypes by experienced hand assembly\n\nSuited for up to 50 surface mount and 20 through-hole components\n\nAll boards manufactured in Europe\n\nPreferred suppliers:\n\nBeta-Layout,\nAisler.net\n\n\n\n\n\n\n\n\n\n\n\nRequirements and Testing Documents\nDelivery of reproducible testing environment\nTech-transfer; no holding out on knowledge\nBill-of-materials (BOM)\nCAD output for records\n\n\n\n\n\nDigikey, Farnell, RS Components or Mouser\nHamamatsu for higher spec photonic components (photodiodes and arrays)\nComar Optics, Edmund Optics, Thorlabs for Opto-Mechanical Components\n\nPCBs Sourced from UK/Europe only Up to 3 PCBs can be hand-assembled for rapid-turnaround Small batch can be ordered by machine assembly with turn-around time of 3 weeks"
   },
   {
-    "objectID": "projects/employee_training/employee_training.html",
-    "href": "projects/employee_training/employee_training.html",
-    "title": "Employee Training Records App",
+    "objectID": "services/hardware_dev.html#design-and-development-for-opto-electronic-hardware",
+    "href": "services/hardware_dev.html#design-and-development-for-opto-electronic-hardware",
+    "title": "Electronics and Optics Hardware Development Lifecycle",
     "section": "",
-    "text": "Management of Employee Training Records"
+    "text": "Requirements -&gt; Test Specs -&gt; Hardware Development\nHardware Development\n\nModularisation into testable entities\nRapid design iteration for early prototypes\n\nSchematics, module PCBs\n\nCharacterisation and testing\nIntegration of modules to complete system\n\nIntegrated PCB with annotated schematics\n\nAcceptance Testing\nDesign optimisation and pre-production.\n\nRelease PCB\n\n\n\n\n\n\n\n\n\nTest Driven Development for hardware\n\nContinuous Integration (CI) setup from start\nEverything hosted on a Git repository of your choice.\nCI on the development machine with test harnesses\nIntegration testing with Python based automated testing\nHardware-in-loop (HIL) implemented when needed\n\nEfficient hardware design in KiCAD1 or Eagle CAD (Autodesk)\n\nup to 4 layers electronics PCB\n\nQuick turn-around for urgent electronic prototypes by experienced hand assembly\n\nSuited for up to 50 surface mount and 20 through-hole components\n\nAll boards manufactured in Europe\n\nPreferred suppliers:\n\nBeta-Layout,\nAisler.net\n\n\n\n\n\n\n\n\n\n\n\nRequirements and Testing Documents\nDelivery of reproducible testing environment\nTech-transfer; no holding out on knowledge\nBill-of-materials (BOM)\nCAD output for records\n\n\n\n\n\nDigikey, Farnell, RS Components or Mouser\nHamamatsu for higher spec photonic components (photodiodes and arrays)\nComar Optics, Edmund Optics, Thorlabs for Opto-Mechanical Components\n\nPCBs Sourced from UK/Europe only Up to 3 PCBs can be hand-assembled for rapid-turnaround Small batch can be ordered by machine assembly with turn-around time of 3 weeks"
   },
   {
-    "objectID": "projects/HomeMonitor/home_monitor.html",
-    "href": "projects/HomeMonitor/home_monitor.html",
-    "title": "Home Environmental Monitoring",
-    "section": "",
-    "text": "Home Environmental Monitoring"
-  },
-  {
-    "objectID": "projects/ortholinear_keyboard/ortholinear_keyboard.html",
-    "href": "projects/ortholinear_keyboard/ortholinear_keyboard.html",
-    "title": "Custom Ortholinear Mechanical Keyboard",
-    "section": "",
-    "text": "Custom Ortholinear Split Mechanical Keyboard"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects and Product Development",
-    "section": "",
-    "text": "Projects and Product Development\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCustom Ortholinear Mechanical Keyboard\n\n\nNew product development of an ortholinear keyboard for improved ergonomics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDobble Playing AI\n\n\nArtifical Intellidence to play a game of Dobble using Convolutional Neural Networks for computer vision applications.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\nEmployee Training Records App\n\n\nA simple, easy to use spreadsheet replacement for maintaining employee training records.\n\n\n\n\n\n\nJan 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHome Environmental Monitoring\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "125systems",
-    "section": "",
-    "text": "Mission: Help early stage bio-sensor and point-of-care companies deliver products.\nDedicated to solving real-world problems through innovative software-hardware integration. Specialize in bio-sensors, optics-electronics, embedded systems, and integration of such hybrid technologies into product development.\nWith over 12+ years experience in R&D, we thrive in multi-disciplinary environments, collaborating with diverse teams to deliver project outcomes. The track record includes designing and developing products such as point-of-care lateral-flow readers, smartphone-based lateral-flow readers and integration of time-resolved fluorescence reading technology.\nWe offer consultancy and contract services tailored to your specific needs. Whether you require assistance in algorithm development, firmware design, software integration, or architecting product design, we can help you every step of the way.\nCommitted to delivering quality solutions to the requirements-specifications within your timelines and budget. Contact us to find out how we can help you to reach your goals and deliver the planned R&D projects."
-  },
-  {
-    "objectID": "blog/posts/post1.html",
-    "href": "blog/posts/post1.html",
-    "title": "Post 1",
-    "section": "",
-    "text": "Post 1"
-  },
-  {
-    "objectID": "blog/posts/post2.html",
-    "href": "blog/posts/post2.html",
-    "title": "Post 2",
-    "section": "",
-    "text": "Post 2"
-  },
-  {
-    "objectID": "blog/posts/post3.html",
-    "href": "blog/posts/post3.html",
-    "title": "Post 3",
-    "section": "",
-    "text": "Post 3"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Leading early phases of product development with complex multidisciplinary integration.\nRealistic and informed solutions for technical and related business problems.\nRisk-based rapid design iterations to reach informed and well tested design decisions.\nFocussing on deliverable and demo-worthy outcomes.\nCustomer centric and requirements driven R&D.\nWorking with design, marketting and executive teams.\n\n\n\n\n\n\n\nLeading a multi-talented team for product development.\nLeading R&D and IP development from ground-up.\n\n\n\n\nI have demonstrated these skills in real-world projects.\n\nPython for R&D (NumPy, Matplotlib, Jupyter Notebook, Pandas)\nPython for Firmware Development and Testing\nDeep Learning with Convolutional Neural Networks with TensorFlow and Scikit-Learn\nImage Processing with OpenCV and Scikit-Image\nEmbedded C/C++ (AVR, PIC24, ARM Cortex-M)\nProof-of-concept Android + Kotlin App development for Computer Vision and Bluetooth.\n\nI have been able to support / debug / add features to following platforms:\n\nC#/.NET Forms and WPF Apps\n\n\n\n\n\nPrecise and data-driven reporting.\nDirect reporting to CEO and Chairman\nDesign, development and delivery of in-vitro diagnostics (IVD) products\nSoftware development compliant to ISO 62304:2016 Medical Device Lifecyle (Class A,B)\nTechnical project management and work-package leadership.\n\n\n\n\n\nRealistic product delivery schedules - there is a difference between ambitious and unrealistic.\nValue driven culture -\nFlat or shallow hierachical strcutures.\n\n\n\n\n\n\n\nFluorescence detection-based point-of-care diagnostics platforms : bridging the gap between laboratory and market.\nDoctoral Thesis, 2014, University of Basel, Faculty of Science.\n\n\n\nIsotropic colour effects based on diffraction gratings for document security.\nMaster Thesis, 2009."
-  },
-  {
-    "objectID": "quickref.html",
-    "href": "quickref.html",
-    "title": "Quick Reference Material",
-    "section": "",
-    "text": "Docker Cheatsheet / Notes\n\n\n\n\n\nSolid development and test environments using containers.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nProduct Development with Realistic V-model\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nQuarto Quirks - Tips & Tricks\n\n\n\n\n\nQuarto has one of the best documentation however some of the quirks can be found obscured in the docs. Even moden “AI” or search engines can fail to find these ones.\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "objectID": "services/hardware_dev.html#footnotes",
+    "href": "services/hardware_dev.html#footnotes",
+    "title": "Electronics and Optics Hardware Development Lifecycle",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nKiCAD is a free and open-source EDA https://www.kicad.org/. It is used and supported by several companies and research institure including CERN https://ohwr.org/project/cern-kicad/wikis/home↩︎"
   },
   {
     "objectID": "services/tech_project_management.html",
@@ -119,18 +49,207 @@
     "text": "requirements\ntest driven development\ncontinuous integration (CI)\nhardware-in-loop or mock testing\nreports"
   },
   {
+    "objectID": "services/tech_project_management.html#technical-project-management",
+    "href": "services/tech_project_management.html#technical-project-management",
+    "title": "Technical Project Management",
+    "section": "",
+    "text": "requirements\ntest driven development\ncontinuous integration (CI)\nhardware-in-loop or mock testing\nreports"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "👯 Leading early phases of product development with complex multidisciplinary integration.\nRealistic and informed solutions for technical and related business problems.\nDesigning data-flow driven and test-driven instruments software and hardware architecture.\nRisk-based rapid design iterations to reach informed and well tested design decisions.\nFocussing on deliverable and demo-worthy outcomes.\nCustomer centric and requirements driven R&D.\nWorking with design, marketing and executive teams\n\n\n\n\n\n\n\nLeading a multi-talented team for product development.\nLeading R&D and IP development from ground-up.\n\n\n\n\nI have demonstrated these skills in real-world projects.\n\nPython for R&D (NumPy, Matplotlib, Jupyter Notebook, Pandas)\nPython for Firmware Development and Testing\nDeep Learning with Convolutional Neural Networks with TensorFlow and Scikit-Learn\nImage Processing with OpenCV and Scikit-Image\nEmbedded C/C++ (AVR, PIC24, ARM Cortex-M)\nProof-of-concept Android + Kotlin App development for Computer Vision and Bluetooth.\n\nI have been able to support / debug / add features to following platforms:\n\nC#/.NET Forms and WPF Apps\n\n\n\n\n\nPrecise and data-driven reporting.\nDirect reporting to CEO and Chairman\nDesign, development and delivery of in-vitro diagnostics (IVD) products\nSoftware development compliant to ISO 62304:2016 Medical Device Lifecyle (Class A,B)\nTechnical project management and work-package leadership.\n\n\n\n\n\nRealistic product delivery schedules - there is a difference between ambitious and unrealistic.\nValue driven culture -\nFlat or shallow hierachical strcutures.\n\n\n\n\n\n\n\nFluorescence detection-based point-of-care diagnostics platforms : bridging the gap between laboratory and market.\nDoctoral Thesis, 2014, University of Basel, Faculty of Science.\n\n\n\nIsotropic colour effects based on diffraction gratings for document security.\nMaster Thesis, 2009."
+  },
+  {
+    "objectID": "about.html#i-specialize-in",
+    "href": "about.html#i-specialize-in",
+    "title": "About",
+    "section": "",
+    "text": "👯 Leading early phases of product development with complex multidisciplinary integration.\nRealistic and informed solutions for technical and related business problems.\nDesigning data-flow driven and test-driven instruments software and hardware architecture.\nRisk-based rapid design iterations to reach informed and well tested design decisions.\nFocussing on deliverable and demo-worthy outcomes.\nCustomer centric and requirements driven R&D.\nWorking with design, marketing and executive teams"
+  },
+  {
+    "objectID": "about.html#my-primary-skillset",
+    "href": "about.html#my-primary-skillset",
+    "title": "About",
+    "section": "",
+    "text": "Leading a multi-talented team for product development.\nLeading R&D and IP development from ground-up.\n\n\n\n\nI have demonstrated these skills in real-world projects.\n\nPython for R&D (NumPy, Matplotlib, Jupyter Notebook, Pandas)\nPython for Firmware Development and Testing\nDeep Learning with Convolutional Neural Networks with TensorFlow and Scikit-Learn\nImage Processing with OpenCV and Scikit-Image\nEmbedded C/C++ (AVR, PIC24, ARM Cortex-M)\nProof-of-concept Android + Kotlin App development for Computer Vision and Bluetooth.\n\nI have been able to support / debug / add features to following platforms:\n\nC#/.NET Forms and WPF Apps\n\n\n\n\n\nPrecise and data-driven reporting.\nDirect reporting to CEO and Chairman\nDesign, development and delivery of in-vitro diagnostics (IVD) products\nSoftware development compliant to ISO 62304:2016 Medical Device Lifecyle (Class A,B)\nTechnical project management and work-package leadership.\n\n\n\n\n\nRealistic product delivery schedules - there is a difference between ambitious and unrealistic.\nValue driven culture -\nFlat or shallow hierachical strcutures."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "",
+    "text": "Fluorescence detection-based point-of-care diagnostics platforms : bridging the gap between laboratory and market.\nDoctoral Thesis, 2014, University of Basel, Faculty of Science.\n\n\n\nIsotropic colour effects based on diffraction gratings for document security.\nMaster Thesis, 2009."
+  },
+  {
+    "objectID": "blog/posts/post2.html",
+    "href": "blog/posts/post2.html",
+    "title": "Post 2",
+    "section": "",
+    "text": "Post 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "125systems",
+    "section": "",
+    "text": "Hi, I am Neeraj Adsul. With over 12 years of experience in R&D, I excel in innovatively integrating software-hardware solutions to address real-world challenges. My expertise lies in medtech-sensor systems, optics-electronics design, and seamless integration of hybrid technologies into product development. I am known for my dedication, diligence, and commitment to delivering high-quality results.\nProficient in embedded C/Rust, Python ecosystem, and data-driven software, I have a solid track record in designing and developing cutting-edge products, including point-of-care IVD instruments, smartphone-based lateral-flow readers, and opto-electronic embedded systems integration. My strength lies in thriving in multi-disciplinary environments, collaborating effectively with diverse teams to achieve project success."
+  },
+  {
+    "objectID": "index.html#get-in-touch",
+    "href": "index.html#get-in-touch",
+    "title": "125systems",
+    "section": "💼 Get In Touch",
+    "text": "💼 Get In Touch"
+  },
+  {
+    "objectID": "index.html#overview-of-services",
+    "href": "index.html#overview-of-services",
+    "title": "125systems",
+    "section": "Overview Of Services",
+    "text": "Overview Of Services"
+  },
+  {
+    "objectID": "projects/ortholinear_keyboard/ortholinear_keyboard.html",
+    "href": "projects/ortholinear_keyboard/ortholinear_keyboard.html",
+    "title": "Custom Ortholinear Mechanical Keyboard",
+    "section": "",
+    "text": "Custom Ortholinear Split Mechanical Keyboard"
+  },
+  {
+    "objectID": "projects/employee_training/employee_training.html",
+    "href": "projects/employee_training/employee_training.html",
+    "title": "Employee Training Records App",
+    "section": "",
+    "text": "Management of Employee Training Records"
+  },
+  {
+    "objectID": "quickref/docker_notes.html#docker-run-in-details",
+    "href": "quickref/docker_notes.html#docker-run-in-details",
+    "title": "Docker Cheatsheet / Notes",
+    "section": "Docker Run in Details",
+    "text": "Docker Run in Details\n\nInteractive mode\ndocker run -it interactive mode with psuedo terminal\n\n\nport mapping\ndocker run -p &lt;host_port&gt;:&lt;con_port&gt; maps host port to container port\n\n\nvolume mapping, data persistence\ndocker run -v &lt;host_vol&gt;:&lt;con_vol&gt; maps host storage to container storage\ne.g. docker run -it /home/neeraj/Sources:/home/ alpine:3.17"
+  },
+  {
+    "objectID": "quickref/docker_notes.html#supplementary",
+    "href": "quickref/docker_notes.html#supplementary",
+    "title": "Docker Cheatsheet / Notes",
+    "section": "Supplementary",
+    "text": "Supplementary\ndocker logs &lt;con_id&gt; view the logs\ndocker attach  &lt;con_id&gt; attaches to given running container\ndocker inspect &lt;con_id&gt; displays information about running container, e.g. ip address"
+  },
+  {
+    "objectID": "quickref/docker_notes.html#docker-images-and-containerization",
+    "href": "quickref/docker_notes.html#docker-images-and-containerization",
+    "title": "Docker Cheatsheet / Notes",
+    "section": "Docker Images and Containerization",
+    "text": "Docker Images and Containerization\n\nHow to create the image?\n\nstart with the OS\nFROM python:3.11.0-alpine\n\n\nDocker Environment Variables\ndocker run -e APP_VARIANT=12\n\n\nDocker Compose\nRunning multi-container app"
+  },
+  {
+    "objectID": "quickref/npd_v_model.html",
+    "href": "quickref/npd_v_model.html",
+    "title": "Product Development with Realistic V-model",
+    "section": "",
+    "text": "The V-Model process for new product development is a structured approach to product development that emphasizes testing and verification throughout the entire process. However, the traditional model is almost a waterfall type model which fails to match the pratice.\n\n\n\n\nThe product development process starts with requirements analysis. In this phase, the product requirements are collected and analyzed to ensure they are complete, consistent, and achievable.\n\n\n\n\nThe system design phase involves creating a high-level design of the product. This includes defining the system architecture and subsystems, and identifying interfaces and communication protocols.\n\n\nThe system is brocken down in modules is designed in detail. This includes defining the interfaces between modules, and creating detailed design specifications.\n\n\n\n\nThe implementation phase involves building and integrating the subsystems into a complete system. This phase includes coding, unit testing, and integration testing.\n\n\n\nThe testing phase involves testing the product against software and hardware requirements specifications to ensure that it meets the design specifications. This includes functional testing, performance testing,\n\n\n\nThis testing is primarily focussing one the user acceptance testing in as close as possible to the real-world testing environement. The user could be an instrument, another software or a web API.\n\n\n\nIn the validation phase, the product is validated against the user requirements to ensure that it meets their needs. This may include usability testing, security testing, and regulatory compliance testing.\nBy following this improved V-Model process for new product development, companies can ensure that their products are thoroughly tested and validated before they are released to market."
+  },
+  {
+    "objectID": "quickref/npd_v_model.html#user-stories-and-live-backlog",
+    "href": "quickref/npd_v_model.html#user-stories-and-live-backlog",
+    "title": "Product Development with Realistic V-model",
+    "section": "",
+    "text": "The product development process starts with requirements analysis. In this phase, the product requirements are collected and analyzed to ensure they are complete, consistent, and achievable."
+  },
+  {
+    "objectID": "quickref/npd_v_model.html#system-architecture-design",
+    "href": "quickref/npd_v_model.html#system-architecture-design",
+    "title": "Product Development with Realistic V-model",
+    "section": "",
+    "text": "The system design phase involves creating a high-level design of the product. This includes defining the system architecture and subsystems, and identifying interfaces and communication protocols.\n\n\nThe system is brocken down in modules is designed in detail. This includes defining the interfaces between modules, and creating detailed design specifications."
+  },
+  {
+    "objectID": "quickref/npd_v_model.html#develop-and-unit-test",
+    "href": "quickref/npd_v_model.html#develop-and-unit-test",
+    "title": "Product Development with Realistic V-model",
+    "section": "",
+    "text": "The implementation phase involves building and integrating the subsystems into a complete system. This phase includes coding, unit testing, and integration testing."
+  },
+  {
+    "objectID": "quickref/npd_v_model.html#integration-testing-and-evaluation",
+    "href": "quickref/npd_v_model.html#integration-testing-and-evaluation",
+    "title": "Product Development with Realistic V-model",
+    "section": "",
+    "text": "The testing phase involves testing the product against software and hardware requirements specifications to ensure that it meets the design specifications. This includes functional testing, performance testing,"
+  },
+  {
+    "objectID": "quickref/npd_v_model.html#acceptance-testing",
+    "href": "quickref/npd_v_model.html#acceptance-testing",
+    "title": "Product Development with Realistic V-model",
+    "section": "",
+    "text": "This testing is primarily focussing one the user acceptance testing in as close as possible to the real-world testing environement. The user could be an instrument, another software or a web API."
+  },
+  {
+    "objectID": "quickref/npd_v_model.html#validation-and-verification",
+    "href": "quickref/npd_v_model.html#validation-and-verification",
+    "title": "Product Development with Realistic V-model",
+    "section": "",
+    "text": "In the validation phase, the product is validated against the user requirements to ensure that it meets their needs. This may include usability testing, security testing, and regulatory compliance testing.\nBy following this improved V-Model process for new product development, companies can ensure that their products are thoroughly tested and validated before they are released to market."
+  },
+  {
+    "objectID": "quickref/quarto_quirks.html",
+    "href": "quickref/quarto_quirks.html",
+    "title": "Quarto Quirks - Tips & Tricks",
+    "section": "",
+    "text": "How to resize image in Markdown ?\n![](image.png){.absolute top=50 right=50 width=\"450\" height=\"250\"}\nhttps://quarto.org/docs/presentations/revealjs/advanced.html#absolute-position"
+  },
+  {
+    "objectID": "projects/dobble_AI/dobble_AI.html",
+    "href": "projects/dobble_AI/dobble_AI.html",
+    "title": "Dobble Playing AI",
+    "section": "",
+    "text": "Dobble Playing AI"
+  },
+  {
+    "objectID": "projects/HomeMonitor/home_monitor.html",
+    "href": "projects/HomeMonitor/home_monitor.html",
+    "title": "Home Environmental Monitoring",
+    "section": "",
+    "text": "Home Environmental Monitoring"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects and Product Development",
+    "section": "",
+    "text": "Projects and Product Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nCustom Ortholinear Mechanical Keyboard\n\n\nNew product development of an ortholinear keyboard for improved ergonomics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDobble Playing AI\n\n\nArtifical Intellidence to play a game of Dobble using Convolutional Neural Networks for computer vision applications.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmployee Training Records App\n\n\nA simple, easy to use spreadsheet replacement for maintaining employee training records.\n\n\n\n\n\n\nJan 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nHome Environmental Monitoring\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/posts/post1.html",
+    "href": "blog/posts/post1.html",
+    "title": "Post 1",
+    "section": "",
+    "text": "Post 1"
+  },
+  {
+    "objectID": "blog/posts/post3.html",
+    "href": "blog/posts/post3.html",
+    "title": "Post 3",
+    "section": "",
+    "text": "Post 3"
+  },
+  {
+    "objectID": "quickref.html",
+    "href": "quickref.html",
+    "title": "Quick Reference Material",
+    "section": "",
+    "text": "Docker Cheatsheet / Notes\n\n\n\n\n\nSolid development and test environments using containers.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nProduct Development with Realistic V-model\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nQuarto Quirks - Tips & Tricks\n\n\n\n\n\nQuarto has one of the best documentation however some of the quirks can be found obscured in the docs. Even moden “AI” or search engines can fail to find these ones.\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "services/ML_vision_engineering.html",
     "href": "services/ML_vision_engineering.html",
     "title": "Machine Learing and Vision System Integration",
     "section": "",
     "text": "Machine Learing and Vision System Integration\n\nDevelopment of industrial camera based analysis and measurement systems.\nMachine vision with combination of convolutional neural networks (CNN) and image processing algorithms.\nRobust production ready platform based on TensorFlow/Keras + OpenCV + Scientific Python.\nFocus on Edge AI, machine learning without cloud connectivity in production.\n\n\nServices Offered\n\nProof-of-concept system design and development\nData gathering and generation support\n\n\n\nIncluded Services\n\nFree initial consultation\nRequirements document\nTest reports\nDelivery of reproducible development environment\nTech-transfer; no holding out on knowledge"
-  },
-  {
-    "objectID": "services/hardware_dev.html",
-    "href": "services/hardware_dev.html",
-    "title": "Electronics and Optics Hardware Development Lifecycle",
-    "section": "",
-    "text": "Requirements -> Test Specs -> Hardware Development\nHardware Development\n\nModularisation into testable entities\nRapid design iteration for early prototypes\n\nSchematics, module PCBs\n\nCharacterisation and testing\nIntegration of modules to complete system\n\nIntegrated PCB with annotated schematics\n\nAcceptance Testing\nDesign optimisation and pre-production.\n\nRelease PCB\n\n\n\n\n\n\n\n\n\nTest Driven Development for hardware\n\nContinuous Integration (CI) setup from start\nEverything hosted on a Git repository of your choice.\nCI on the development machine with test harnesses\nIntegration testing with Python based automated testing\nHardware-in-loop (HIL) implemented when needed\n\nEfficient hardware design in KiCAD1 or Eagle CAD (Autodesk)\n\nup to 4 layers electronics PCB\n\nQuick turn-around for urgent electronic prototypes by experienced hand assembly\n\nSuited for up to 50 surface mount and 20 through-hole components\n\nAll boards manufactured in Europe\n\nPreferred suppliers:\n\nBeta-Layout,\nAisler.net\n\n\n\n\n\n\n\n\n\n\n\nRequirements and Testing Documents\nDelivery of reproducible testing environment\nTech-transfer; no holding out on knowledge\nBill-of-materials (BOM)\nCAD output for records\n\n\n\n\n\nDigikey, Farnell, RS Components or Mouser\nHamamatsu for higher spec photonic components (photodiodes and arrays)\nComar Optics, Edmund Optics, Thorlabs for Opto-Mechanical Components\n\nPCBs Sourced from UK/Europe only Up to 3 PCBs can be hand-assembled for rapid-turnaround Small batch can be ordered by machine assembly with turn-around time of 3 weeks"
   },
   {
     "objectID": "services/data_science_insights.html",
@@ -140,11 +259,11 @@
     "text": "During early years of am immunoassay based company significant amount of data is generated. Typically, such a data is managed with traditional spreadsheet/csv files based systems which are used to create reports or presentations on need basis. However, over period of years it is hard to make sense of all of the data at once.\nThere are several products in the market which provide data management and dashboarding. However they are targeted towards larger enterprises. Furthermore they are simply unaffordable and overkill for early phases.\nTherefore a simpler, custom developed system is an optimal solution. The system uses the sofware ecosystem which is extensively used by scientific communities as well as indutries across the world. The tools inlcude:\n\nPython + NumPy + Matplotlib\nPandas + Jupyter Lab Notebooks\n\n\n\n\nDevelopment of data solution\nSetup in internal network environment\nDelivery of reproducible environment\nTech-transfer; no holding out on knowledge\n\n\n\n\n\nTraining of relevant staff.\nSetup in a private web-hosted environment (virtual server)."
   },
   {
-    "objectID": "services/firmware_dev.html",
-    "href": "services/firmware_dev.html",
-    "title": "Firmware Development Lifecycle",
+    "objectID": "services/data_science_insights.html#purpose-oriented-data-science",
+    "href": "services/data_science_insights.html#purpose-oriented-data-science",
+    "title": "Value Oriented Data Science",
     "section": "",
-    "text": "Firmware Development Full Lifecycle\n\nAgile and Maintainable Firmware Development\n\nRequirements -> Test Specs -> Firmware Development\nTest Driven Development (TDD) for firmware\n\nContinuous Integration (CI) setup from start\nEverything hosted on a Git repository of your choice.\nCI on development machine with Jenkins based CI\nRemote CI based on Azure, GitHub or Atlassian1\nIntegration testing with Python based automated testing\nHardware-in-loop (HIL) implemented when needed\nCppUTest unit testing framework\n\nExperience and tooling available for following\nFor simpler applications: Microchip PIC24, AVR microcontrollers\nFor larger and higher speed: ST Micro Cortex-M STM32 or Microchip dsPIC\n\n\nTDD Firmware Development\n\n\n\n\n\n\n\nFirmware Testing and Debugging\n\n\n\n\n\n\n\nIncluded Services\n\nRequirements document\nTest reports\nDelivery of reproducible development environment\nTech-transfer; no holding out on knowledge\n\n\n\n\n\n\n\n\nFootnotes\n\n\nAzure DevOps, GitHub Actions and Atlassian Bitbucket is free for 5 users, needs subscription if more.↩︎"
+    "text": "During early years of am immunoassay based company significant amount of data is generated. Typically, such a data is managed with traditional spreadsheet/csv files based systems which are used to create reports or presentations on need basis. However, over period of years it is hard to make sense of all of the data at once.\nThere are several products in the market which provide data management and dashboarding. However they are targeted towards larger enterprises. Furthermore they are simply unaffordable and overkill for early phases.\nTherefore a simpler, custom developed system is an optimal solution. The system uses the sofware ecosystem which is extensively used by scientific communities as well as indutries across the world. The tools inlcude:\n\nPython + NumPy + Matplotlib\nPandas + Jupyter Lab Notebooks\n\n\n\n\nDevelopment of data solution\nSetup in internal network environment\nDelivery of reproducible environment\nTech-transfer; no holding out on knowledge\n\n\n\n\n\nTraining of relevant staff.\nSetup in a private web-hosted environment (virtual server)."
   },
   {
     "objectID": "services/application_software_dev.html#architecture-design-and-tdd",
@@ -166,12 +285,5 @@
     "title": "System Architecture and Design",
     "section": "Services",
     "text": "Services\n\nRequirements Documents\nRisk-Test Trceability\nSystem and Software Architecture\nTest driven development of the software\nContinuous integration (CI)\nhardware-in-loop or mock testing\nTest Reports"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Blog Posts\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n01-Feb-2023\n\n\nPost 2\n\n\nNeeraj\n\n\n\n\n01-Feb-2023\n\n\nPost 3\n\n\nNeeraj\n\n\n\n\n01-Jan-2023\n\n\nPost 1\n\n\nNeeraj\n\n\n\n\n\n\nNo matching items"
   }
 ]
