@@ -18,15 +18,6 @@
     ]
   },
   {
-    "listing": "/projects.html",
-    "items": [
-      "/projects/ortholinear_keyboard/ortholinear_keyboard.html",
-      "/projects/dobble_AI/dobble_AI.html",
-      "/projects/employee_training/employee_training.html",
-      "/projects/HomeMonitor/home_monitor.html"
-    ]
-  },
-  {
     "listing": "/quickref.html",
     "items": [
       "/quickref/docker_notes.html",

@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Blog Posts\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n01-Feb-2023\n\n\nPost 2\n\n\nNeeraj \n\n\n\n\n01-Feb-2023\n\n\nPost 3\n\n\nNeeraj \n\n\n\n\n01-Jan-2023\n\n\nPost 1\n\n\nNeeraj \n\n\n\n\n\n\nNo matching items"
+    "text": "Blog Posts\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\n01-Feb-2023\n\n\nPost 2\n\n\nNeeraj \n\n\n\n\n01-Feb-2023\n\n\nPost 3\n\n\nNeeraj \n\n\n\n\n01-Jan-2023\n\n\nPost 1\n\n\nNeeraj \n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "services/firmware_dev.html",
@@ -112,20 +112,6 @@
     "text": "Overview Of Services"
   },
   {
-    "objectID": "projects/ortholinear_keyboard/ortholinear_keyboard.html",
-    "href": "projects/ortholinear_keyboard/ortholinear_keyboard.html",
-    "title": "Custom Ortholinear Mechanical Keyboard",
-    "section": "",
-    "text": "Custom Ortholinear Split Mechanical Keyboard"
-  },
-  {
-    "objectID": "projects/employee_training/employee_training.html",
-    "href": "projects/employee_training/employee_training.html",
-    "title": "Employee Training Records App",
-    "section": "",
-    "text": "Management of Employee Training Records"
-  },
-  {
     "objectID": "quickref/docker_notes.html#docker-run-in-details",
     "href": "quickref/docker_notes.html#docker-run-in-details",
     "title": "Docker Cheatsheet / Notes",
@@ -203,25 +189,39 @@
     "text": "How to resize image in Markdown ?\n![](image.png){.absolute top=50 right=50 width=\"450\" height=\"250\"}\nhttps://quarto.org/docs/presentations/revealjs/advanced.html#absolute-position"
   },
   {
-    "objectID": "projects/dobble_AI/dobble_AI.html",
-    "href": "projects/dobble_AI/dobble_AI.html",
-    "title": "Dobble Playing AI",
-    "section": "",
-    "text": "Dobble Playing AI"
-  },
-  {
-    "objectID": "projects/HomeMonitor/home_monitor.html",
-    "href": "projects/HomeMonitor/home_monitor.html",
-    "title": "Home Environmental Monitoring",
-    "section": "",
-    "text": "Home Environmental Monitoring"
-  },
-  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Projects and Product Development",
     "section": "",
-    "text": "Projects and Product Development\n\n\n\n\n\n\n\n\n\n\n\n\n\nCustom Ortholinear Mechanical Keyboard\n\n\nNew product development of an ortholinear keyboard for improved ergonomics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDobble Playing AI\n\n\nArtifical Intellidence to play a game of Dobble using Convolutional Neural Networks for computer vision applications.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEmployee Training Records App\n\n\nA simple, easy to use spreadsheet replacement for maintaining employee training records.\n\n\n\n\n\n\nJan 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nHome Environmental Monitoring\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "New product development of an ortholinear keyboard for improved ergonomics. \ngithub.com/neerajadsul/Stagy58\n\n\n\nArtifical Intellidence to play a game of Dobble using Convolutional Neural Networks for computer vision applications.\n\ngithub.com/neerajadsul/DobbleAI"
+  },
+  {
+    "objectID": "projects.html#ortholinear-keyboard",
+    "href": "projects.html#ortholinear-keyboard",
+    "title": "Projects and Product Development",
+    "section": "",
+    "text": "New product development of an ortholinear keyboard for improved ergonomics. \ngithub.com/neerajadsul/Stagy58"
+  },
+  {
+    "objectID": "projects.html#dobble-ai---training-and-deployment",
+    "href": "projects.html#dobble-ai---training-and-deployment",
+    "title": "Projects and Product Development",
+    "section": "",
+    "text": "Artifical Intellidence to play a game of Dobble using Convolutional Neural Networks for computer vision applications.\n\ngithub.com/neerajadsul/DobbleAI"
+  },
+  {
+    "objectID": "projects.html#employee-training-management-for-iso-compliance",
+    "href": "projects.html#employee-training-management-for-iso-compliance",
+    "title": "Projects and Product Development",
+    "section": "Employee Training Management for ISO Compliance",
+    "text": "Employee Training Management for ISO Compliance\nA simple, easy to use spreadsheet replacement for maintaining employee training records."
+  },
+  {
+    "objectID": "projects.html#lateralflowreaderdata.com",
+    "href": "projects.html#lateralflowreaderdata.com",
+    "title": "Projects and Product Development",
+    "section": "LateralFlowReaderData.com",
+    "text": "LateralFlowReaderData.com\nA data-warehousing and insights platform for lateral-flow rapid test small businesses."
   },
   {
     "objectID": "blog/posts/post1.html",
@@ -242,7 +242,7 @@
     "href": "quickref.html",
     "title": "Quick Reference Material",
     "section": "",
-    "text": "Docker Cheatsheet / Notes\n\n\n\n\n\nSolid development and test environments using containers.\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nProduct Development with Realistic V-model\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nQuarto Quirks - Tips & Tricks\n\n\n\n\n\nQuarto has one of the best documentation however some of the quirks can be found obscured in the docs. Even moden “AI” or search engines can fail to find these ones.\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "Docker Cheatsheet / Notes\n\n\n\n\n\nSolid development and test environments using containers.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProduct Development with Realistic V-model\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuarto Quirks - Tips & Tricks\n\n\n\n\n\nQuarto has one of the best documentation however some of the quirks can be found obscured in the docs. Even moden “AI” or search engines can fail to find these ones.\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "services/ML_vision_engineering.html",
